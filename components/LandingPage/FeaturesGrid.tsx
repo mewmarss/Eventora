@@ -34,7 +34,7 @@ const FeaturesGrid = () => {
         <h1 className="text-lg font-bold">Event Templates</h1>
         <h2 className="text-sm text-gray-500 font-medium">
           Use pre-designed templates to set up your events quickly. Choose from
-          various styles to match your event's theme.
+          various styles to match your events theme.
         </h2>
       </div>
       <div className="p-4 rounded-xl border-2 flex flex-col text-left gap-2 shadow-xl hover:border-orange-400 transition duration-300 cursor-pointer">
