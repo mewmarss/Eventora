@@ -1,6 +1,5 @@
 import Hero from "@/components/LandingPage/Hero";
 import Dashboard from "@/components/LandingPage/Dashboard";
-import Header from "@/components/shared/Header";
 import Features from "@/components/LandingPage/Features";
 import Pricing from "@/components/LandingPage/Pricing";
 import Mockup from "@/components/LandingPage/Mockup";
