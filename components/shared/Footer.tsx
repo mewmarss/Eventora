@@ -31,7 +31,10 @@ const Footer = () => {
             <div className="flex flex-col gap-2">
               <h2 className="font-semibold">Company</h2>
               {companyLinks.map((link) => (
-                <span className="text-gray-500 hover:text-gray-700 transition cursor-pointer">
+                <span
+                  className="text-gray-500 hover:text-gray-700 transition cursor-pointer"
+                  key={link}
+                >
                   {link}
                 </span>
               ))}
@@ -39,7 +42,10 @@ const Footer = () => {
             <div className="flex flex-col gap-2">
               <h2 className="font-semibold">Legal</h2>
               {legalLinks.map((link) => (
-                <span className="text-gray-500 hover:text-gray-700 transition cursor-pointer">
+                <span
+                  className="text-gray-500 hover:text-gray-700 transition cursor-pointer"
+                  key={link}
+                >
                   {link}
                 </span>
               ))}

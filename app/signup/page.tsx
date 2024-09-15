@@ -1,7 +1,6 @@
 "use client";
 
 import axios from "axios";
-import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";

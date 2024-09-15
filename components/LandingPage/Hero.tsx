@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "../shared/Button";
-import Features from "./Dashboard";
 import Link from "next/link";
 
 const Hero = () => {
